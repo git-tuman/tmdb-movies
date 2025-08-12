@@ -41,7 +41,7 @@ function ContentDetailsPage() {
 
   function handleClickBtnPreviousPage() {
     store.dispatch(actionCreatorClearDetailsAndCreditsMovie());
-    navigate(`/`);
+    navigate(`/tmdb-movies`);
   }
 
   if (listFavoriteMovies === null || details === null || credits === null) {
@@ -146,7 +146,7 @@ function ContainerDetailsPage() {
           store.dispatch(fetchCreditsMovie(movie_id));
         }
       } else {
-        navigate("/login");
+        navigate("/tmdb-movies/login");
       }
     }, 300);
 

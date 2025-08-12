@@ -19,7 +19,7 @@ function CardFilm({ film }: { film: Movie }) {
   const navigate = useNavigate();
 
   function handleClickCardMovie() {
-    navigate(`/${film.id}`);
+    navigate(`/tmdb-movies/${film.id}`);
   }
 
   return (
