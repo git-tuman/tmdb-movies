@@ -16,6 +16,7 @@
 
 - TypeScript
 - React
+- React Router DOM
 - Redux
 - Material UI
 - Webpack
