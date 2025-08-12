@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tmdb-movies/static/css/main.e6c13ad2.css",
+    "main.js": "/tmdb-movies/static/js/main.005c04c9.js",
+    "static/js/488.3041c398.chunk.js": "/tmdb-movies/static/js/488.3041c398.chunk.js",
+    "index.html": "/tmdb-movies/index.html",
+    "main.e6c13ad2.css.map": "/tmdb-movies/static/css/main.e6c13ad2.css.map",
+    "main.005c04c9.js.map": "/tmdb-movies/static/js/main.005c04c9.js.map",
+    "488.3041c398.chunk.js.map": "/tmdb-movies/static/js/488.3041c398.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.005c04c9.js"
+  ]
+}
