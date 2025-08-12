@@ -22,7 +22,8 @@ const HeaderMainWindow = memo(
     const navigate = useNavigate();
 
     const customBackgroundColor =
-      location.pathname === "/tmdb-movies"
+      location.pathname === "/tmdb-movies" ||
+      location.pathname === "/tmdb-movies/"
         ? DEFAULT_COLOR_HEADER
         : ALMOST_TRANSPARENT_COLOR;
 
